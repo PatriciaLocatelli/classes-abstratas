@@ -27,8 +27,8 @@ public class Teste1 {
         for(Conta c : lista){
             c.deposito(10.0);
         }
-        for(Conta c : lista){
-            System.out.printf("Total Conta: %d : %.2f%n", c.getNumero(), c.getSaldo());
+        for(Conta conta : lista){
+            System.out.printf("Total Conta: %d : %.2f%n", conta.getNumero(), conta.getSaldo());
         }
 
     }
